@@ -12,4 +12,4 @@ def charMaxFreq(s):
     maxChar = max(maxChar, key = maxChar.get)
     return maxChar
 
-charMaxFreq(s)
+print(charMaxFreq(s))
