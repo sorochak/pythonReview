@@ -8,7 +8,7 @@
 num = int(input('Enter and integer\n')) # Assume a valid number
 count = 0
 
-while(num):
+while(num != 0):
     count += num & 1
     num >>= 1
 print(count)
